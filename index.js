@@ -22,16 +22,16 @@ function App(props) {
           <h2>Employment History</h2>
           <ul>
             <li>
-              <p>Google, Inc</p>
-              <p>Software Engineer</p>
+              <p>Dunder Mifflin Paper Company</p>
+              <p>Customer Relations</p>
               <p>2014-Present</p>
               <p>Did a lot of computer things</p>
             </li>
             <li>
-              <p>In and Out Burger</p>
-              <p>Line Cook</p>
+              <p>Vance Refridgeration</p>
+              <p>Truck Driver</p>
               <p>1999-2013</p>
-              <p>Made amazing hamburgers and stuff</p>
+              <p>Had amazing hamburgers and stuff on the road</p>
             </li>
           </ul>
         </section>
@@ -58,6 +58,6 @@ App.defaultProps = {
 
 
 ReactDOM.render(
-  <App name="Jimmy Smith"/>,
+  <App name="John Doe"/>,
   document.querySelector('#root')
 );
